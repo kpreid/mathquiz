@@ -1,0 +1,13 @@
+CACHE MANIFEST
+mathquiz.html
+mathquiz.js
+mathquiz.css
+http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+http://cdn.mathjax.org/mathjax/latest/config/TeX-AMS-MML_HTMLorMML.js
+http://cdn.mathjax.org/mathjax/latest/jax/output/HTML-CSS/jax.js
+http://cdn.mathjax.org/mathjax/latest/jax/output/HTML-CSS/fonts/TeX/fontdata.js
+http://cdn.mathjax.org/mathjax/latest/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf
+http://cdn.mathjax.org/mathjax/latest/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf
+http://cdn.mathjax.org/mathjax/latest/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf
+http://cdn.mathjax.org/mathjax/latest/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf
+http://cdn.mathjax.org/mathjax/latest/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf

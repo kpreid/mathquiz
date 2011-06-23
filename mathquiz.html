@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+  "http://www.w3.org/TR/html4/strict.dtd">
+<html manifest="mathquiz.manifest">
+<head>
+  <title>Math Error Quiz</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, user-scalable=no, target-densitydpi=device-dpi" />
+  <script type="text/javascript" src="jquery-1.5.2.js"></script>
+  <script type="text/javascript" src="mathquiz.js"></script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <link rel="stylesheet" href="mathquiz.css" type="text/css" media="screen">
+</head><body>
+
+<div class="statsbar">
+  <div class="statsitem">Score: <span id="score"></span></div>
+  <div class="statsitem">Average: <span id="average"></span></div>
+</div>
+
+<ul class="choices" id="container">
+  <li><button>foo</button></li>
+</ul>
+
+<script>initMathQuiz(document.getElementById("container"),
+                     document.getElementById("score"),
+                    document.getElementById("average"))</script>
+</body></html>

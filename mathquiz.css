@@ -1,0 +1,52 @@
+html, body, .choices, .choices li, .choices button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    color: inherit;
+    font: inherit;
+}
+
+html {
+    background: black;
+    color: white;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 170%;
+}
+
+.choices li {
+    border: solid gray;
+    border-width: 1px 0;
+    margin-top: -1px;
+}
+
+.choices button {
+    display: block;
+    text-align: left;
+    width: 100%;
+}
+
+.choices button, .statsitem {
+    padding: 1em;
+}
+
+.statsbar {
+    display: table;
+    margin: 0;
+    padding: 0;
+    border-collapse: separate;
+    border: 1px gray outset;
+    width: 100%;
+    background: #444;
+    color: white;
+    font-weight: bold;
+    /*text-shadow: -.1em 0 0 #000, 
+                  .1em 0 0 #000,
+                  0 .1em 0 #000,
+                  0 -.1em 0 #000;*/
+}
+
+.statsitem {
+    display: table-cell;
+    width: 50%;
+}
