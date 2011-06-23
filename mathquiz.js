@@ -12,7 +12,7 @@ function initMathQuiz(container, scoreE, averageE) {
   
   // --- Document DOM setup ---
   var sample = $(container).children("*").first();
-  console.log(sample);
+  //console.log(sample);
   sample.remove();
 
   function makeNumberWidget(element, places) {
@@ -112,7 +112,7 @@ function initMathQuiz(container, scoreE, averageE) {
     button.click(function (event) {
       if (!active || choiceClicked) return;
       choiceClicked = true;
-      console.log(text);
+      //console.log(text);
       if (className == "incorrect") {
         // user correctly chose the incorrect item
         scoreN.add(Math.log(wrongsLeft+1)/Math.log(2));
@@ -192,8 +192,8 @@ function initMathQuiz(container, scoreE, averageE) {
   
   function newProblems() {
     clearChoices();
-    //var problemSetType = pickRandomProperty(problemSetGenerators);
-    var problemSetType="derivatives";
+
+    var problemSetType = pickRandomProperty(problemSetGenerators);
     problemSet = problemSetGenerators[problemSetType]();
     
     // generate choices-1 distinct correct formulas
