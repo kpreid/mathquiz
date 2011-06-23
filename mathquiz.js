@@ -1,3 +1,8 @@
+/* 
+  Copyright 2011 Kevin Reid, under the terms of the MIT X license
+  found at <http://www.opensource.org/licenses/mit-license.html>.
+*/
+
 function initMathQuiz(container, scoreE, averageE) {
   // --- Code setup ---
   var $ = jQuery;
